@@ -1,0 +1,42 @@
+/* src/components/admin/CompanyList.module.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .title {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .noCompanies {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+  }
+  
+  .companyList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .companyItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .companyName {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .companyLocation {
+    margin: 0 0 3px 0;
+    font-size: 0.9em;
+    color: #777;
+  }

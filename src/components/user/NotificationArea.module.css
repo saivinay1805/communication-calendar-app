@@ -1,0 +1,25 @@
+/* src/components/user/NotificationArea.module.css */
+.notificationArea {
+    padding: 20px;
+}
+
+.notificationHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.notificationBadge {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50%;
+    font-size: 0.8em;
+}
+
+
+.notificationGrids {
+    display: flex;
+    gap: 20px;
+}

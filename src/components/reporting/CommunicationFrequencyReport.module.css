@@ -1,0 +1,6 @@
+/* src/components/reporting/CommunicationFrequencyReport.module.css */
+.reportContainer {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}

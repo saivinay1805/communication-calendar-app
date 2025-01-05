@@ -1,0 +1,37 @@
+/* src/components/user/Dashboard.module.css */
+.dashboardContainer {
+    padding: 20px;
+  }
+  
+  .dashboardTitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .headerRow {
+    display: table-row;
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .headerCell,
+  .cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .headerCell {
+    font-weight: bold;
+  }

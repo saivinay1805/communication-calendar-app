@@ -1,0 +1,9 @@
+/* src/components/user/CalendarView.module.css */
+
+.calendarContainer {
+    padding: 20px;
+  }
+  
+  .eventContent{
+      padding: 5px
+  }

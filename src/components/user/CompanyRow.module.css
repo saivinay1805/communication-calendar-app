@@ -1,0 +1,42 @@
+/* src/components/user/CompanyRow.module.css */
+.row {
+    display: table-row;
+  }
+  
+  .cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .logButton {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .overrideLabel{
+    display: flex;
+      gap: 5px;
+      align-items: center;
+  }
+  .communicationDetail {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .communicationDetail:hover::after{
+      content: attr(title);
+      position: absolute;
+      left: 0;
+      top: 20px;
+      background-color: #333;
+      color: white;
+      padding: 5px;
+      border-radius: 4px;
+      z-index: 1;
+      white-space: nowrap;
+  }

@@ -1,0 +1,9 @@
+/* src/components/reporting/EngagementEffectivenessDashboard.module.css */
+.dashboardContainer {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  .reportSection {
+    margin-top: 20px;
+  }

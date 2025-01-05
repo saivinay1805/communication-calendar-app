@@ -1,0 +1,27 @@
+/* src/components/user/TodaysCommunicationsGrid.module.css */
+.todayGrid{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.todayTitle {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.noDueToday {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
+
+.companyList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.companyItem {
+  padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+}

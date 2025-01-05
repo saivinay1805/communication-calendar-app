@@ -1,0 +1,19 @@
+/* src/components/reporting/ReportingArea.module.css */
+.reportArea{
+    padding: 20px;
+}
+.reportContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.filters{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
