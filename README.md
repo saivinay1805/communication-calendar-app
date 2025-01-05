@@ -10,16 +10,16 @@ A React-based application for tracking communications with companies, scheduling
 2.  **Clone the Repository:**
 
     ```bash
-    git clone <[your_repository_url](https://github.com/saivinay1805/communication-calendar-app)>
+    git clone https://github.com/saivinay1805/communication-calendar-app.git
     cd communication-calendar-app
     ```
 
-    *(Replace `<your_repository_url>` with the actual URL of your GitHub repository).*
 3.  **Install Dependencies:**
 
     ```bash
     npm install
     ```
+
 4.  **Start the Development Server:**
 
     ```bash
@@ -90,8 +90,8 @@ A React-based application for tracking communications with companies, scheduling
 *   `recharts`: For creating charts.
 *   `@fullcalendar/react`, `@fullcalendar/core`, `@fullcalendar/daygrid`: For displaying the calendar view.
 *   `uuid`: For creating unique IDs.
-    `react-datepicker`: For selecting dates.
+  `react-datepicker`: For selecting dates.
 
 ## Live Application
 
-[Your Live Application URL](<your_live_application_url>)
+[Your Live Application URL](https://communication-calendar-lg7sw2gb7-saivinay1805s-projects.vercel.app/)
